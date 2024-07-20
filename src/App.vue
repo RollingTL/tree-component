@@ -1,9 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import DataTree from './components/DataTree.vue'
+</script>
 
 <template>
-  <header>hello</header>
-
-  <main>world</main>
+  <main>
+    <DataTree />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+main {
+  max-width: 480px;
+  margin: auto;
+}
+</style>
